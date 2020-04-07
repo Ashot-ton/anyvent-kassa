@@ -1,2 +1,1 @@
-# anyvent-kassa
-# anyvent-kassa
+# Readme van kassa-systeem
