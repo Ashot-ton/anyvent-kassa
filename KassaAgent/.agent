@@ -1,0 +1,9 @@
+﻿{
+  "acceptTeeEula": true,
+  "agentId": 96,
+  "agentName": "KassaAgent",
+  "poolId": 16,
+  "poolName": "Kassa",
+  "serverUrl": "https://dev.azure.com/anyvent/",
+  "workFolder": "_work"
+}

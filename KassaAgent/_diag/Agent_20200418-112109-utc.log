@@ -1,0 +1,132 @@
+[2020-04-18 11:21:10Z INFO AgentProcess] Agent package linux-x64.
+[2020-04-18 11:21:10Z INFO AgentProcess] Running on Linux (X64).
+[2020-04-18 11:21:10Z INFO AgentProcess] RuntimeInformation: Linux 4.15.0-96-generic #97-Ubuntu SMP Wed Apr 1 03:25:46 UTC 2020.
+[2020-04-18 11:21:10Z INFO AgentProcess] Version: 2.166.3
+[2020-04-18 11:21:10Z INFO AgentProcess] Commit: 87e2e0a590e68bbee1294597beeeda281816852e
+[2020-04-18 11:21:10Z INFO AgentProcess] Culture: 
+[2020-04-18 11:21:10Z INFO AgentProcess] UI Culture: 
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO AgentProcess] Validating directory permissions for: '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO CommandSettings] Remove {
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "Help": false,
+  "Version": false
+}
+[2020-04-18 11:21:10Z INFO AgentProcess] Arguments parsed
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known config file 'Proxy': '/home/anyvent/KassaAgent/.proxy'
+[2020-04-18 11:21:10Z INFO VstsAgentWebProxy] No proxy setting found.
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known config file 'Certificates': '/home/anyvent/KassaAgent/.certificates'
+[2020-04-18 11:21:10Z INFO AgentCertificateManager] No certificate setting found.
+[2020-04-18 11:21:10Z INFO Agent] ExecuteCommand
+[2020-04-18 11:21:10Z INFO ConfigurationStore] currentAssemblyLocation: /home/anyvent/KassaAgent/bin/Agent.Listener.dll
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO ConfigurationStore] binPath: /home/anyvent/KassaAgent/bin
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO ConfigurationStore] RootFolder: /home/anyvent/KassaAgent
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known config file 'Agent': '/home/anyvent/KassaAgent/.agent'
+[2020-04-18 11:21:10Z INFO ConfigurationStore] ConfigFilePath: /home/anyvent/KassaAgent/.agent
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known config file 'Credentials': '/home/anyvent/KassaAgent/.credentials'
+[2020-04-18 11:21:10Z INFO ConfigurationStore] CredFilePath: /home/anyvent/KassaAgent/.credentials
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known config file 'Service': '/home/anyvent/KassaAgent/.service'
+[2020-04-18 11:21:10Z INFO ConfigurationStore] ServiceConfigFilePath: /home/anyvent/KassaAgent/.service
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known config file 'Autologon': '/home/anyvent/KassaAgent/.autologon'
+[2020-04-18 11:21:10Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/anyvent/KassaAgent/.autologon
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:21:10Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:21:10Z INFO HostContext] Well known config file 'Options': '/home/anyvent/KassaAgent/.options'
+[2020-04-18 11:21:10Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/anyvent/KassaAgent/.options
+[2020-04-18 11:21:10Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-04-18 11:21:10Z INFO ConfigurationStore] IsServiceConfigured: False
+[2020-04-18 11:21:10Z INFO Terminal] WRITE LINE: Removing agent from the server
+[2020-04-18 11:21:10Z INFO ConfigurationStore] IsConfigured()
+[2020-04-18 11:21:10Z INFO ConfigurationStore] IsConfigured: True
+[2020-04-18 11:21:10Z INFO ConfigurationStore] HasCredentials()
+[2020-04-18 11:21:10Z INFO ConfigurationStore] stored True
+[2020-04-18 11:21:10Z INFO ConfigurationStore] Read setting file: 182 chars
+[2020-04-18 11:21:10Z INFO ConfigurationManager] GetCredentialProvider
+[2020-04-18 11:21:10Z INFO CommandSettings] Arg 'auth': ''
+[2020-04-18 11:21:10Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:21:10Z INFO PromptManager] ReadValue
+[2020-04-18 11:21:10Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2020-04-18 11:21:10Z INFO Terminal] READ LINE
+[2020-04-18 11:21:16Z INFO Terminal] Read value: ''
+[2020-04-18 11:21:16Z INFO PromptManager] Falling back to the default: 'PAT'
+[2020-04-18 11:21:16Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2020-04-18 11:21:16Z INFO CredentialManager] GetCredentialProvider
+[2020-04-18 11:21:16Z INFO CredentialManager] Creating type PAT
+[2020-04-18 11:21:16Z INFO CredentialManager] Creating credential type: PAT
+[2020-04-18 11:21:16Z INFO PersonalAccessToken] EnsureCredential
+[2020-04-18 11:21:16Z INFO CommandSettings] Arg 'token': ''
+[2020-04-18 11:21:16Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:21:16Z INFO PromptManager] ReadValue
+[2020-04-18 11:21:16Z INFO Terminal] WRITE: Enter personal access token > 
+[2020-04-18 11:21:16Z INFO Terminal] READ SECRET
+[2020-04-18 11:22:52Z INFO Terminal] Read value: '***'
+[2020-04-18 11:22:52Z INFO PersonalAccessToken] GetVssCredentials
+[2020-04-18 11:22:52Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2020-04-18 11:22:52Z INFO PersonalAccessToken] cred created
+[2020-04-18 11:22:52Z INFO ConfigurationManager] cred retrieved
+[2020-04-18 11:22:52Z INFO ConfigurationManager] Agent configured for deploymentGroup : False
+[2020-04-18 11:22:52Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2020-04-18 11:22:52Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2020-04-18 11:22:52Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2020-04-18 11:22:52Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2020-04-18 11:22:52Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2020-04-18 11:22:52Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO ConfigurationManager] Server deployment type: Hosted
+[2020-04-18 11:22:53Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2020-04-18 11:22:53Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:22:53Z INFO Terminal] WRITE LINE: Does not exist. Skipping Removing agent from the server
+[2020-04-18 11:22:53Z INFO Terminal] WRITE LINE: Removing .credentials
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:22:53Z INFO HostContext] Well known config file 'RSACredentials': '/home/anyvent/KassaAgent/.credentials_rsaparams'
+[2020-04-18 11:22:53Z INFO RSAFileKeyManager] Deleting RSA key parameters file /home/anyvent/KassaAgent/.credentials_rsaparams
+[2020-04-18 11:22:53Z INFO Terminal] WRITE LINE: Succeeded: Removing .credentials
+[2020-04-18 11:22:53Z INFO Terminal] WRITE LINE: Removing .agent
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:22:53Z INFO HostContext] Well known config file 'ProxyCredentials': '/home/anyvent/KassaAgent/.proxycredentials'
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:22:53Z INFO HostContext] Well known config file 'ProxyBypass': '/home/anyvent/KassaAgent/.proxybypass'
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:22:53Z INFO HostContext] Well known config file 'Proxy': '/home/anyvent/KassaAgent/.proxy'
+[2020-04-18 11:22:53Z INFO VstsAgentWebProxy] Delete .proxy file: /home/anyvent/KassaAgent/.proxy
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:22:53Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:22:53Z INFO HostContext] Well known config file 'Certificates': '/home/anyvent/KassaAgent/.certificates'
+[2020-04-18 11:22:53Z INFO Terminal] WRITE LINE: Succeeded: Removing .agent

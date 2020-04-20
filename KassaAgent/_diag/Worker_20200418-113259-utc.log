@@ -1,0 +1,716 @@
+[2020-04-18 11:32:59Z INFO Program] Version: 2.166.3
+[2020-04-18 11:32:59Z INFO Program] Commit: 87e2e0a590e68bbee1294597beeeda281816852e
+[2020-04-18 11:32:59Z INFO Program] Culture: 
+[2020-04-18 11:32:59Z INFO Program] UI Culture: 
+[2020-04-18 11:32:59Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:32:59Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:32:59Z INFO HostContext] Well known config file 'Proxy': '/home/anyvent/KassaAgent/.proxy'
+[2020-04-18 11:32:59Z INFO VstsAgentWebProxy] No proxy setting found.
+[2020-04-18 11:32:59Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:32:59Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:32:59Z INFO HostContext] Well known config file 'Certificates': '/home/anyvent/KassaAgent/.certificates'
+[2020-04-18 11:32:59Z INFO AgentCertificateManager] No certificate setting found.
+[2020-04-18 11:32:59Z INFO Worker] Waiting to receive the job message from the channel.
+[2020-04-18 11:32:59Z INFO Worker] Message received.
+[2020-04-18 11:32:59Z INFO Worker] Job message:
+ {
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "inputs": {
+        "repository": "__designer_repo",
+        "clean": "false",
+        "fetchDepth": "0",
+        "lfs": "false"
+      },
+      "type": "task",
+      "reference": {
+        "id": "6d15af64-176c-496d-b583-fd2ae21d4df4",
+        "name": "Checkout",
+        "version": "1.0.0"
+      },
+      "id": "771d55ec-34a7-5ddd-398e-3e8e57b4f3f0",
+      "name": "Checkout",
+      "displayName": "Checkout"
+    }
+  ],
+  "variables": {
+    "system.debug": {
+      "value": "false"
+    },
+    "system": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.hosttype": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.servertype": {
+      "value": "Hosted",
+      "isReadOnly": true
+    },
+    "system.culture": {
+      "value": "en-US",
+      "isReadOnly": true
+    },
+    "system.collectionId": {
+      "value": "f76cb1ff-9a10-4270-9d57-13da6007675a",
+      "isReadOnly": true
+    },
+    "system.collectionUri": {
+      "value": "https://dev.azure.com/anyvent/",
+      "isReadOnly": true
+    },
+    "system.teamFoundationCollectionUri": {
+      "value": "https://dev.azure.com/anyvent/",
+      "isReadOnly": true
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://dev.azure.com/anyvent/",
+      "isReadOnly": true
+    },
+    "system.pipelineStartTime": {
+      "value": "2020-04-18 11:32:55+00:00",
+      "isReadOnly": true
+    },
+    "system.teamProject": {
+      "value": "Kassa",
+      "isReadOnly": true
+    },
+    "system.teamProjectId": {
+      "value": "a05c0e53-5a4a-4053-86e3-16f6aa69264c",
+      "isReadOnly": true
+    },
+    "system.definitionId": {
+      "value": "34",
+      "isReadOnly": true
+    },
+    "build.definitionName": {
+      "value": "Kassa-CI",
+      "isReadOnly": true
+    },
+    "build.definitionVersion": {
+      "value": "2",
+      "isReadOnly": true
+    },
+    "build.queuedBy": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.queuedById": {
+      "value": "78e3e2b5-bb5d-6b3c-a0c2-1f7b00fb2277",
+      "isReadOnly": true
+    },
+    "build.requestedFor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.requestedForId": {
+      "value": "78e3e2b5-bb5d-6b3c-a0c2-1f7b00fb2277",
+      "isReadOnly": true
+    },
+    "build.requestedForEmail": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersion": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranch": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranchName": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.reason": {
+      "value": "Manual",
+      "isReadOnly": true
+    },
+    "system.pullRequest.isFork": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.jobParallelismTag": {
+      "value": "Private",
+      "isReadOnly": true
+    },
+    "MSDEPLOY_HTTP_USER_AGENT": {
+      "value": "VSTS_f76cb1ff-9a10-4270-9d57-13da6007675a_build_34_0",
+      "isReadOnly": true
+    },
+    "AZURE_HTTP_USER_AGENT": {
+      "value": "VSTS_f76cb1ff-9a10-4270-9d57-13da6007675a_build_34_0",
+      "isReadOnly": true
+    },
+    "build.buildId": {
+      "value": "181",
+      "isReadOnly": true
+    },
+    "build.buildUri": {
+      "value": "vstfs:///Build/Build/181",
+      "isReadOnly": true
+    },
+    "build.buildNumber": {
+      "value": "181",
+      "isReadOnly": true
+    },
+    "build.containerId": {
+      "value": "9268087",
+      "isReadOnly": true
+    },
+    "system.isScheduled": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.definitionName": {
+      "value": "Kassa-CI",
+      "isReadOnly": true
+    },
+    "system.planId": {
+      "value": "741dfedc-2477-4a13-9f90-f691d2981119",
+      "isReadOnly": true
+    },
+    "system.timelineId": {
+      "value": "741dfedc-2477-4a13-9f90-f691d2981119",
+      "isReadOnly": true
+    },
+    "system.stageDisplayName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageId": {
+      "value": "96ac2280-8cb4-5df5-99de-dd2da759617d",
+      "isReadOnly": true
+    },
+    "system.stageName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.phaseDisplayName": {
+      "value": "Kassa Pipeline",
+      "isReadOnly": true
+    },
+    "system.phaseId": {
+      "value": "2f97f1d8-943c-5cda-8782-cbcebf2b3d67",
+      "isReadOnly": true
+    },
+    "system.phaseName": {
+      "value": "Job_1",
+      "isReadOnly": true
+    },
+    "system.phaseAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobIdentifier": {
+      "value": "Job_1.__default",
+      "isReadOnly": true
+    },
+    "system.jobAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.JobPositionInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobDisplayName": {
+      "value": "Kassa Pipeline",
+      "isReadOnly": true
+    },
+    "system.jobId": {
+      "value": "275f1d19-1bd8-5591-b06b-07d489ea915a",
+      "isReadOnly": true
+    },
+    "system.jobName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "agent.retainDefaultEncoding": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestResultLogPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestFilePublisherPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.repository.id": {
+      "value": "Ashot-ton/anyvent-kassa",
+      "isReadOnly": true
+    },
+    "build.repository.name": {
+      "value": "Ashot-ton/anyvent-kassa",
+      "isReadOnly": true
+    },
+    "build.repository.uri": {
+      "value": "https://github.com/Ashot-ton/anyvent-kassa",
+      "isReadOnly": true
+    },
+    "build.sourceVersionAuthor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersionMessage": {
+      "value": "Set up CI with Azure Pipelines voor Kassa\n\neerste pipeline test [skip ci]",
+      "isReadOnly": true
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "a05c0e53-5a4a-4053-86e3-16f6aa69264c",
+    "planType": "Build",
+    "version": 10,
+    "planId": "741dfedc-2477-4a13-9f90-f691d2981119",
+    "planGroup": "Build:a05c0e53-5a4a-4053-86e3-16f6aa69264c:181",
+    "artifactUri": "vstfs:///Build/Build/181",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/anyvent/a05c0e53-5a4a-4053-86e3-16f6aa69264c/_build/definition?definitionId=34"
+        },
+        "self": {
+          "href": "https://dev.azure.com/anyvent/a05c0e53-5a4a-4053-86e3-16f6aa69264c/_apis/build/Definitions/34"
+        }
+      },
+      "id": 34,
+      "name": "Kassa-CI"
+    },
+    "owner": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/anyvent/a05c0e53-5a4a-4053-86e3-16f6aa69264c/_build/results?buildId=181"
+        },
+        "self": {
+          "href": "https://dev.azure.com/anyvent/a05c0e53-5a4a-4053-86e3-16f6aa69264c/_apis/build/Builds/181"
+        }
+      },
+      "id": 181,
+      "name": "181"
+    }
+  },
+  "timeline": {
+    "id": "741dfedc-2477-4a13-9f90-f691d2981119",
+    "changeId": 5,
+    "location": null
+  },
+  "jobId": "275f1d19-1bd8-5591-b06b-07d489ea915a",
+  "jobDisplayName": "Kassa Pipeline",
+  "jobName": "__default",
+  "jobContainer": null,
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "pipelinesSourceProvider": "github"
+        },
+        "id": "92914a0c-ec96-4b5d-8486-f567df7c3719",
+        "name": "Kassa",
+        "type": "GitHub",
+        "owner": "Library",
+        "url": "https://github.com",
+        "createdBy": {
+          "displayName": "TONOYAN Ashot (s)",
+          "url": "https://spsprodweu4.vssps.visualstudio.com/Add0c7d81-30ef-4225-ad26-e80a276e0148/_apis/Identities/78e3e2b5-bb5d-6b3c-a0c2-1f7b00fb2277",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/anyvent/_apis/GraphProfile/MemberAvatars/aad.NzhlM2UyYjUtYmI1ZC03YjNjLWEwYzItMWY3YjAwZmIyMjc3"
+            }
+          },
+          "id": "78e3e2b5-bb5d-6b3c-a0c2-1f7b00fb2277",
+          "uniqueName": "ashot.tonoyan@student.ehb.be",
+          "imageUrl": "https://dev.azure.com/anyvent/_apis/GraphProfile/MemberAvatars/aad.NzhlM2UyYjUtYmI1ZC03YjNjLWEwYzItMWY3YjAwZmIyMjc3",
+          "descriptor": "aad.NzhlM2UyYjUtYmI1ZC03YjNjLWEwYzItMWY3YjAwZmIyMjc3"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "IdToken": "***",
+            "IdSignature": "***",
+            "RepositoryIds": null,
+            "AccessToken": ***
+          },
+          "scheme": "Token"
+        },
+        "isShared": false,
+        "isReady": true
+      },
+      {
+        "data": {
+          "ServerId": "f76cb1ff-9a10-4270-9d57-13da6007675a",
+          "ServerName": "anyvent"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://dev.azure.com/anyvent/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ],
+    "repositories": [
+      {
+        "properties": {
+          "id": "Ashot-ton/anyvent-kassa",
+          "type": "GitHub",
+          "name": "Ashot-ton/anyvent-kassa",
+          "ref": "refs/heads/master",
+          "defaultBranch": "refs/heads/master",
+          "externalId": "253936322",
+          "project": "a05c0e53-5a4a-4053-86e3-16f6aa69264c",
+          "version": "24b471c0d270d03140abdf2b7f0e88ca7bdc4bbd",
+          "versionInfo": {
+            "author": "[PII]"
+          },
+          "url": "https://github.com:443/Ashot-ton/anyvent-kassa"
+        },
+        "alias": "__designer_repo",
+        "endpoint": {
+          "id": "92914a0c-ec96-4b5d-8486-f567df7c3719"
+        }
+      }
+    ]
+  }
+}
+[2020-04-18 11:32:59Z INFO JobRunner] Job ID 275f1d19-1bd8-5591-b06b-07d489ea915a
+[2020-04-18 11:32:59Z INFO JobRunner] Creating job server with URL: https://dev.azure.com/anyvent/
+[2020-04-18 11:32:59Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:32:59Z INFO Worker] Listening for cancel message from the channel.
+[2020-04-18 11:32:59Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2020-04-18 11:33:00Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:33:00Z INFO JobServerQueue] Start process web console line queue.
+[2020-04-18 11:33:00Z INFO JobServerQueue] Start process file upload queue.
+[2020-04-18 11:33:00Z INFO JobServerQueue] Start process timeline update queue.
+[2020-04-18 11:33:00Z INFO ConfigurationStore] currentAssemblyLocation: /home/anyvent/KassaAgent/bin/Agent.Worker.dll
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO ConfigurationStore] binPath: /home/anyvent/KassaAgent/bin
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO ConfigurationStore] RootFolder: /home/anyvent/KassaAgent
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known config file 'Agent': '/home/anyvent/KassaAgent/.agent'
+[2020-04-18 11:33:00Z INFO ConfigurationStore] ConfigFilePath: /home/anyvent/KassaAgent/.agent
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known config file 'Credentials': '/home/anyvent/KassaAgent/.credentials'
+[2020-04-18 11:33:00Z INFO ConfigurationStore] CredFilePath: /home/anyvent/KassaAgent/.credentials
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known config file 'Service': '/home/anyvent/KassaAgent/.service'
+[2020-04-18 11:33:00Z INFO ConfigurationStore] ServiceConfigFilePath: /home/anyvent/KassaAgent/.service
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known config file 'Autologon': '/home/anyvent/KassaAgent/.autologon'
+[2020-04-18 11:33:00Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/anyvent/KassaAgent/.autologon
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known config file 'Options': '/home/anyvent/KassaAgent/.options'
+[2020-04-18 11:33:00Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/anyvent/KassaAgent/.options
+[2020-04-18 11:33:00Z INFO ConfigurationStore] Read setting file: 186 chars
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Diag': '/home/anyvent/KassaAgent/_diag'
+[2020-04-18 11:33:00Z INFO JobRunner] Starting the job execution context.
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:00Z INFO JobRunner] Validating directory permissions for: '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Tools': '/home/anyvent/KassaAgent/_work/_tool'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:00Z INFO HostContext] Well known directory 'Temp': '/home/anyvent/KassaAgent/_work/_temp'
+[2020-04-18 11:33:00Z INFO JobRunner] Creating task server with https://dev.azure.com/anyvent/
+[2020-04-18 11:33:01Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:33:01Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:33:01Z INFO JobRunner] Getting job extension.
+[2020-04-18 11:33:01Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildJobExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseJobExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.DeploymentJobExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Maintenance.MaintenanceJobExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO JobRunner] Initialize job. Getting all job steps.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Diag': '/home/anyvent/KassaAgent/_diag'
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Run initial step from extension BuildJobExtension.
+[2020-04-18 11:33:01Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ExternalGitSourceProvider, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubSourceProvider, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubEnterpriseSourceProvider, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BitbucketSourceProvider, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.SvnSourceProvider, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsGitSourceProvider, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsVCSourceProvider, Agent.Worker
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Creating build directory.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Checking if artifacts directory exists: '/home/anyvent/KassaAgent/_work/1/a'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Creating artifacts directory.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Checking if test results directory exists: '/home/anyvent/KassaAgent/_work/1/TestResults'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Creating test results directory.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Creating binaries directory.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Creating source directory.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO BuildDirectoryManager] Set repository path for repository __designer_repo to '/home/anyvent/KassaAgent/_work/1/s'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Checking repository name __designer_repo
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Downloading task definitions.
+[2020-04-18 11:33:01Z INFO TaskManager] Skip download checkout task.
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Parsing all task's condition inputs.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Tasks': '/home/anyvent/KassaAgent/_work/_tasks'
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Adding pre-job step from extension.
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Adding post-job step from extension.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Diag': '/home/anyvent/KassaAgent/_diag'
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Adding post-job steps from tasks.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Diag': '/home/anyvent/KassaAgent/_diag'
+[2020-04-18 11:33:01Z INFO BuildJobExtension] Total accessible running process: 140.
+[2020-04-18 11:33:01Z INFO JobRunner] Total job steps: 2.
+[2020-04-18 11:33:01Z INFO JobRunner] Run all job steps.
+[2020-04-18 11:33:01Z INFO StepsRunner] Processing step: DisplayName='Checkout Ashot-ton/anyvent-kassa@master to s', ContinueOnError=False, Enabled=True
+[2020-04-18 11:33:01Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IWorkerCommandExtension'
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TaskCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ArtifactCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.CodeCoverage.CodeCoverageCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TestResults.ResultsCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Telemetry.TelemetryCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.PluginInternalCommandExtension, Agent.Worker
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area task
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area artifact
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area build
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area codecoverage
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area results
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area telemetry
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area release
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Register command extension for area plugininternal
+[2020-04-18 11:33:01Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2020-04-18 11:33:01Z INFO ExpressionManager] Result: True
+[2020-04-18 11:33:01Z INFO StepsRunner] Starting the step.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Tasks': '/home/anyvent/KassaAgent/_work/_tasks'
+[2020-04-18 11:33:01Z INFO TaskRunner] Get handler data for target platform Linux
+[2020-04-18 11:33:01Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CheckoutTask, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CleanupTask, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (post).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTask, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTask, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV1, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_0, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.SavePipelineCacheV0, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (post).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.RestorePipelineCacheV0, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_1, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_2, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_3, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV2_0_0, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV0_140_0, Agent.Plugins'.
+[2020-04-18 11:33:01Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2020-04-18 11:33:01Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper] Starting process:
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   File name: '/home/anyvent/KassaAgent/bin/Agent.PluginHost'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CheckoutTask, Agent.Plugins"'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Working directory: '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 130881.
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper] Process started with process id 130881, waiting for process exit.
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2020-04-18 11:33:01Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2020-04-18 11:33:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '275f1d19-1bd8-5591-b06b-07d489ea915a', success rate: 1/1.
+[2020-04-18 11:33:02Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2020-04-18 11:33:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '9fef8556-8075-4114-94b3-69b10beda33b', success rate: 1/1.
+[2020-04-18 11:33:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '771d55ec-34a7-5ddd-398e-3e8e57b4f3f0', success rate: 1/1.
+[2020-04-18 11:33:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '771d55ec-34a7-5ddd-398e-3e8e57b4f3f0', success rate: 1/1.
+[2020-04-18 11:33:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '771d55ec-34a7-5ddd-398e-3e8e57b4f3f0', success rate: 1/1.
+[2020-04-18 11:33:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '771d55ec-34a7-5ddd-398e-3e8e57b4f3f0', success rate: 1/1.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Exited process 130881 with exit code 0
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Finished process 130881 with exit code 0, and elapsed time 00:00:03.0707632.
+[2020-04-18 11:33:04Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2020-04-18 11:33:04Z INFO StepsRunner] Step result: 
+[2020-04-18 11:33:04Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2020-04-18 11:33:04Z INFO StepsRunner] Current state: job state = ''
+[2020-04-18 11:33:04Z INFO StepsRunner] Processing step: DisplayName='Checkout Ashot-ton/anyvent-kassa@master to s', ContinueOnError=False, Enabled=True
+[2020-04-18 11:33:04Z INFO ExpressionManager] Evaluating: AlwaysNode()
+[2020-04-18 11:33:04Z INFO ExpressionManager] Result: True
+[2020-04-18 11:33:04Z INFO StepsRunner] Starting the step.
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Tasks': '/home/anyvent/KassaAgent/_work/_tasks'
+[2020-04-18 11:33:04Z INFO TaskRunner] Get handler data for target platform Linux
+[2020-04-18 11:33:04Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2020-04-18 11:33:04Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Starting process:
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   File name: '/home/anyvent/KassaAgent/bin/Agent.PluginHost'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CleanupTask, Agent.Plugins"'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Working directory: '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 130921.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Process started with process id 130921, waiting for process exit.
+[2020-04-18 11:33:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '771d55ec-34a7-5ddd-398e-3e8e57b4f3f0', success rate: 1/1.
+[2020-04-18 11:33:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'd2472ce9-91a1-4309-9349-b34618a9d2fe', success rate: 1/1.
+[2020-04-18 11:33:04Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Exited process 130921 with exit code 0
+[2020-04-18 11:33:04Z INFO ProcessInvokerWrapper] Finished process 130921 with exit code 0, and elapsed time 00:00:00.4329315.
+[2020-04-18 11:33:04Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2020-04-18 11:33:04Z INFO StepsRunner] Step result: 
+[2020-04-18 11:33:04Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2020-04-18 11:33:04Z INFO StepsRunner] Current state: job state = ''
+[2020-04-18 11:33:04Z INFO JobRunner] Finalize job.
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Diag': '/home/anyvent/KassaAgent/_diag'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:33:04Z INFO HostContext] Well known directory 'Work': '/home/anyvent/KassaAgent/_work'
+[2020-04-18 11:33:04Z INFO BuildJobExtension] Total accessible running process: 140.
+[2020-04-18 11:33:04Z INFO JobRunner] Job result after all job steps finish: Succeeded
+[2020-04-18 11:33:04Z INFO JobRunner] Completing the job execution context.
+[2020-04-18 11:33:04Z INFO JobRunner] Shutting down the job server queue.
+[2020-04-18 11:33:04Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2020-04-18 11:33:05Z INFO JobServerQueue] All queue process task stopped.
+[2020-04-18 11:33:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'd2472ce9-91a1-4309-9349-b34618a9d2fe', success rate: 1/1.
+[2020-04-18 11:33:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record '21356e36-3b82-4c08-a357-db347b268a22', success rate: 1/1.
+[2020-04-18 11:33:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record '275f1d19-1bd8-5591-b06b-07d489ea915a', success rate: 1/1.
+[2020-04-18 11:33:06Z INFO JobServerQueue] Web console line queue drained.
+[2020-04-18 11:33:06Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2020-04-18 11:33:06Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2020-04-18 11:33:06Z INFO JobServerQueue] File upload queue drained.
+[2020-04-18 11:33:06Z INFO JobServerQueue] Timeline update queue drained.
+[2020-04-18 11:33:06Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2020-04-18 11:33:06Z INFO TempDirectoryManager] Cleaning agent temp folder: /home/anyvent/KassaAgent/_work/_temp
+[2020-04-18 11:33:06Z INFO JobRunner] Raising job completed event.
+[2020-04-18 11:33:06Z INFO Worker] Job completed.

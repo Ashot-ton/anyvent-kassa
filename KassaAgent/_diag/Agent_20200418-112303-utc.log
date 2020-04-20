@@ -1,0 +1,419 @@
+[2020-04-18 11:23:03Z INFO AgentProcess] Agent package linux-x64.
+[2020-04-18 11:23:03Z INFO AgentProcess] Running on Linux (X64).
+[2020-04-18 11:23:03Z INFO AgentProcess] RuntimeInformation: Linux 4.15.0-96-generic #97-Ubuntu SMP Wed Apr 1 03:25:46 UTC 2020.
+[2020-04-18 11:23:03Z INFO AgentProcess] Version: 2.166.3
+[2020-04-18 11:23:03Z INFO AgentProcess] Commit: 87e2e0a590e68bbee1294597beeeda281816852e
+[2020-04-18 11:23:03Z INFO AgentProcess] Culture: 
+[2020-04-18 11:23:03Z INFO AgentProcess] UI Culture: 
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO AgentProcess] Validating directory permissions for: '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "Help": false,
+  "Version": false
+}
+[2020-04-18 11:23:03Z INFO AgentProcess] Arguments parsed
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known config file 'Proxy': '/home/anyvent/KassaAgent/.proxy'
+[2020-04-18 11:23:03Z INFO VstsAgentWebProxy] No proxy setting found.
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known config file 'Certificates': '/home/anyvent/KassaAgent/.certificates'
+[2020-04-18 11:23:03Z INFO AgentCertificateManager] No certificate setting found.
+[2020-04-18 11:23:03Z INFO Agent] ExecuteCommand
+[2020-04-18 11:23:03Z INFO ConfigurationStore] currentAssemblyLocation: /home/anyvent/KassaAgent/bin/Agent.Listener.dll
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO ConfigurationStore] binPath: /home/anyvent/KassaAgent/bin
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO ConfigurationStore] RootFolder: /home/anyvent/KassaAgent
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known config file 'Agent': '/home/anyvent/KassaAgent/.agent'
+[2020-04-18 11:23:03Z INFO ConfigurationStore] ConfigFilePath: /home/anyvent/KassaAgent/.agent
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known config file 'Credentials': '/home/anyvent/KassaAgent/.credentials'
+[2020-04-18 11:23:03Z INFO ConfigurationStore] CredFilePath: /home/anyvent/KassaAgent/.credentials
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known config file 'Service': '/home/anyvent/KassaAgent/.service'
+[2020-04-18 11:23:03Z INFO ConfigurationStore] ServiceConfigFilePath: /home/anyvent/KassaAgent/.service
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known config file 'Autologon': '/home/anyvent/KassaAgent/.autologon'
+[2020-04-18 11:23:03Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/anyvent/KassaAgent/.autologon
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known config file 'Options': '/home/anyvent/KassaAgent/.options'
+[2020-04-18 11:23:03Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/anyvent/KassaAgent/.options
+[2020-04-18 11:23:03Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v2.166.3             |_|          (commit 87e2e0a)
+
+[2020-04-18 11:23:03Z INFO ConfigurationManager] ConfigureAsync
+[2020-04-18 11:23:03Z INFO ConfigurationStore] IsConfigured()
+[2020-04-18 11:23:03Z INFO ConfigurationStore] IsConfigured: False
+[2020-04-18 11:23:03Z INFO ConfigurationManager] Is configured: False
+[2020-04-18 11:23:03Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2020-04-18 11:23:03Z INFO Terminal] WRITE LINE: 
+[2020-04-18 11:23:03Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2020-04-18 11:23:03Z INFO Terminal] WRITE LINE: 
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:23:03Z INFO HostContext] Well known directory 'Externals': '/home/anyvent/KassaAgent/externals'
+[2020-04-18 11:23:03Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /home/anyvent/KassaAgent/externals/tee/license.html
+[2020-04-18 11:23:03Z INFO Terminal] WRITE LINE: 
+[2020-04-18 11:23:03Z INFO CommandSettings] Flag 'acceptteeeula': 'False'
+[2020-04-18 11:23:03Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:23:03Z INFO PromptManager] ReadValue
+[2020-04-18 11:23:03Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2020-04-18 11:23:03Z INFO Terminal] READ LINE
+[2020-04-18 11:23:08Z INFO Terminal] Read value: 'Y'
+[2020-04-18 11:23:08Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2020-04-18 11:23:08Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2020-04-18 11:23:08Z INFO CommandSettings] Flag 'environment': 'False'
+[2020-04-18 11:23:08Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2020-04-18 11:23:08Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2020-04-18 11:23:08Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2020-04-18 11:23:08Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2020-04-18 11:23:08Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2020-04-18 11:23:08Z INFO Terminal] WRITE LINE: 
+[2020-04-18 11:23:08Z INFO Terminal] WRITE LINE: >> Connect:
+[2020-04-18 11:23:08Z INFO Terminal] WRITE LINE: 
+[2020-04-18 11:23:08Z INFO CommandSettings] Arg 'url': ''
+[2020-04-18 11:23:08Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:23:08Z INFO PromptManager] ReadValue
+[2020-04-18 11:23:08Z INFO Terminal] WRITE: Enter server URL > 
+[2020-04-18 11:23:08Z INFO Terminal] READ LINE
+[2020-04-18 11:23:21Z INFO Terminal] Read value: 'https://dev.azure.com/anyvent'
+[2020-04-18 11:23:21Z INFO ConfigurationManager] GetCredentialProvider
+[2020-04-18 11:23:21Z INFO CommandSettings] Arg 'auth': ''
+[2020-04-18 11:23:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:23:21Z INFO PromptManager] ReadValue
+[2020-04-18 11:23:21Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2020-04-18 11:23:21Z INFO Terminal] READ LINE
+[2020-04-18 11:23:23Z INFO Terminal] Read value: ''
+[2020-04-18 11:23:23Z INFO PromptManager] Falling back to the default: 'PAT'
+[2020-04-18 11:23:23Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2020-04-18 11:23:23Z INFO CredentialManager] GetCredentialProvider
+[2020-04-18 11:23:23Z INFO CredentialManager] Creating type PAT
+[2020-04-18 11:23:23Z INFO CredentialManager] Creating credential type: PAT
+[2020-04-18 11:23:23Z INFO PersonalAccessToken] EnsureCredential
+[2020-04-18 11:23:23Z INFO CommandSettings] Arg 'token': ''
+[2020-04-18 11:23:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:23:23Z INFO PromptManager] ReadValue
+[2020-04-18 11:23:23Z INFO Terminal] WRITE: Enter personal access token > 
+[2020-04-18 11:23:23Z INFO Terminal] READ SECRET
+[2020-04-18 11:25:35Z INFO Terminal] Read value: '***'
+[2020-04-18 11:25:35Z INFO PersonalAccessToken] GetVssCredentials
+[2020-04-18 11:25:35Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2020-04-18 11:25:35Z INFO PersonalAccessToken] cred created
+[2020-04-18 11:25:35Z INFO ConfigurationManager] cred retrieved
+[2020-04-18 11:25:35Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO ConfigurationManager] Server deployment type: Hosted
+[2020-04-18 11:25:36Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2020-04-18 11:25:36Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:25:36Z INFO ConfigurationManager] Test Connection complete.
+[2020-04-18 11:25:36Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:25:36Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:25:36Z INFO HostContext] Well known config file 'RSACredentials': '/home/anyvent/KassaAgent/.credentials_rsaparams'
+[2020-04-18 11:25:36Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-04-18 11:25:36Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/anyvent/KassaAgent/.credentials_rsaparams
+[2020-04-18 11:25:36Z INFO RSAFileKeyManager] Which: 'chmod'
+[2020-04-18 11:25:36Z INFO RSAFileKeyManager] Location: '{matches.First()}'
+[2020-04-18 11:25:36Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:25:36Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] Starting process:
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/anyvent/KassaAgent/.credentials_rsaparams'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Working directory: '/home/anyvent/KassaAgent'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 130469.
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] Exited process 130469 with exit code 0
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/130469/oom_score_adj' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Microsoft.VisualStudio.Services.Agent.Util.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] Process started with process id 130469, waiting for process exit.
+[2020-04-18 11:25:36Z INFO ProcessInvokerWrapper] Finished process 130469 with exit code 0, and elapsed time 00:00:00.0200867.
+[2020-04-18 11:25:36Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/anyvent/KassaAgent/.credentials_rsaparams
+[2020-04-18 11:25:36Z INFO Terminal] WRITE LINE: 
+[2020-04-18 11:25:36Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2020-04-18 11:25:36Z INFO Terminal] WRITE LINE: 
+[2020-04-18 11:25:36Z INFO CommandSettings] Arg 'pool': ''
+[2020-04-18 11:25:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:25:36Z INFO PromptManager] ReadValue
+[2020-04-18 11:25:36Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2020-04-18 11:25:36Z INFO Terminal] READ LINE
+[2020-04-18 11:26:56Z INFO Terminal] Read value: 'Kassa'
+[2020-04-18 11:26:56Z INFO BuildReleasesAgentConfigProvider] Found pool Kassa with id 16 and name Kassa
+[2020-04-18 11:26:56Z INFO CommandSettings] Arg 'agent': ''
+[2020-04-18 11:26:56Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:26:56Z INFO PromptManager] ReadValue
+[2020-04-18 11:26:56Z INFO Terminal] WRITE: Enter agent name (press enter for kassa) > 
+[2020-04-18 11:26:56Z INFO Terminal] READ LINE
+[2020-04-18 11:27:12Z INFO Terminal] Read value: 'KassaAgent'
+[2020-04-18 11:27:12Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2020-04-18 11:27:12Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2020-04-18 11:27:12Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-04-18 11:27:12Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-04-18 11:27:12Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-04-18 11:27:12Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/anyvent'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'C.UTF-8'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_CTYPE': 'C.UTF-8'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_TERMINAL': 'iTerm2'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_TERMINAL_VERSION': '3.3.9'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSCLOSE': '/usr/bin/lesspipe %s %s'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSOPEN': '| /usr/bin/lesspipe %s'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'anyvent'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Skipping: 'LS_COLORS'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'MAIL': '/var/mail/anyvent'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/home/anyvent/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'S_COLORS': 'auto'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_CLIENT': '10.3.100.22 53750 22'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_CONNECTION': '10.3.100.22 53750 10.3.56.5 22'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_TTY': '/dev/pts/0'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'anyvent'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_RUNTIME_DIR': '/run/user/1000'
+[2020-04-18 11:27:12Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_ID': '1188'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'android'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: '/home/anyvent/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'ant'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'clang'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'curl'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'docker'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/bin/docker'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'git'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'java'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'javac'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'make'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'node'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'node.js': '/usr/bin/node'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'node.js': '/usr/bin/nodejs'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'npm'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'npm': '/usr/bin/npm'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'python'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'python': '/usr/bin/python'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'python3'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'sh'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'svn'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'rake'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'svn'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'generator'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2020-04-18 11:27:12Z INFO CapabilitiesBuilder] Not found.
+[2020-04-18 11:27:12Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:27:12Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:12Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'KassaAgent'
+[2020-04-18 11:27:12Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2020-04-18 11:27:12Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2020-04-18 11:27:12Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2020-04-18 11:27:12Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.166.3'
+[2020-04-18 11:27:12Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'kassa'
+[2020-04-18 11:27:12Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:27:12Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:12Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:12Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2020-04-18 11:27:13Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2020-04-18 11:27:13Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/anyvent/'.
+[2020-04-18 11:27:13Z INFO ConfigurationStore] Saving OAuth credential @ /home/anyvent/KassaAgent/.credentials
+[2020-04-18 11:27:13Z INFO ConfigurationStore] Credentials Saved.
+[2020-04-18 11:27:13Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2020-04-18 11:27:13Z INFO ConfigurationStore] HasCredentials()
+[2020-04-18 11:27:13Z INFO ConfigurationStore] stored True
+[2020-04-18 11:27:13Z INFO CredentialManager] GetCredentialProvider
+[2020-04-18 11:27:13Z INFO CredentialManager] Creating type OAuth
+[2020-04-18 11:27:13Z INFO CredentialManager] Creating credential type: OAuth
+[2020-04-18 11:27:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/anyvent/KassaAgent/.credentials_rsaparams
+[2020-04-18 11:27:13Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:27:13Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:27:13Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:27:13Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:27:13Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-04-18 11:27:13Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:27:13Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-04-18 11:27:13Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:27:13Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-04-18 11:27:13Z INFO CommandSettings] Arg 'work': ''
+[2020-04-18 11:27:13Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-18 11:27:13Z INFO PromptManager] ReadValue
+[2020-04-18 11:27:13Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2020-04-18 11:27:13Z INFO Terminal] READ LINE
+[2020-04-18 11:27:21Z INFO Terminal] Read value: ''
+[2020-04-18 11:27:21Z INFO PromptManager] Falling back to the default: '_work'
+[2020-04-18 11:27:21Z INFO ConfigurationStore] Saving agent settings.
+[2020-04-18 11:27:21Z INFO ConfigurationStore] Settings Saved.
+[2020-04-18 11:27:21Z INFO Terminal] WRITE LINE: 2020-04-18 11:27:21Z: Settings Saved.
+[2020-04-18 11:27:21Z INFO SystemDControlManager] Service name 'vsts.agent.anyvent.Kassa.KassaAgent.service' display name 'Azure Pipelines Agent (anyvent.Kassa.KassaAgent)' will be used for service configuration.
+[2020-04-18 11:27:21Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:27:21Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:21Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:27:21Z INFO HostContext] Well known directory 'Bin': '/home/anyvent/KassaAgent/bin'
+[2020-04-18 11:27:21Z INFO HostContext] Well known directory 'Root': '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:21Z INFO UnixUtil] Which: 'chmod'
+[2020-04-18 11:27:21Z INFO UnixUtil] Location: '{matches.First()}'
+[2020-04-18 11:27:21Z INFO UnixUtil] Running /bin/chmod 755 "/home/anyvent/KassaAgent/svc.sh"
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper] Starting process:
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/anyvent/KassaAgent/svc.sh"'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Working directory: '/home/anyvent/KassaAgent'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 130546.
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper] Process started with process id 130546, waiting for process exit.
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper] Exited process 130546 with exit code 0
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-18 11:27:21Z INFO ProcessInvokerWrapper] Finished process 130546 with exit code 0, and elapsed time 00:00:00.0048118.

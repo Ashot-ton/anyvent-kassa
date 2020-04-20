@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1/a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/anyvent/",
+  "definitionName": "Kassa-CI",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "__designer_repo",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/Ashot-ton/anyvent-kassa",
+      "sourcesDirectory": "1/s/anyvent-kassa"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "04/20/2020 11:11:18 +02:00",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1/s",
+  "common_testresultsdirectory": "1/TestResults",
+  "collectionId": "f76cb1ff-9a10-4270-9d57-13da6007675a",
+  "definitionId": "34",
+  "hashKey": "d5222dfeffc2b6be9659d2837f39c372cb15b845",
+  "repositoryUrl": "https://github.com/Ashot-ton/anyvent-kassa",
+  "system": "build"
+}
